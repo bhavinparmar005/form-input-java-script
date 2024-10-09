@@ -11,37 +11,38 @@
             <div class="form_main_container">
                 <div class="proprty_img_main">
                     <div class="proprty_img">
-                        <img src="./assat/img/janganna.jpeg" alt="logo" />
+                        <img src="./assat/img/janganna.jpeg" alt="logo"  onclick="hello()"/>
                     </div>
                 </div>
 
                 <div class="form_container">
-                    <form action>
+                    <form action id="main_form">
                         <div class="name">
-                            <label for="name">Name:</label><br />
-                            <input type="text" placeholder="Enter Your Name" />
+                            <label for="name" >Name:</label><br />
+                            <input type="text" id="full_name"placeholder="Enter Your Name" />
                         </div>
 
                         <div class="name">
                             <label for="name">Family Member:-</label>
-                            <input type="text"
-                                placeholder="Number of Family Number" />
+                            <input type="number"
+                                placeholder="Number of Family Number" id="famaliy_member" />
                         </div>
 
                         <div class="name">
-                            <label for="name">Number:</label>
-                            <input type="text"
-                                placeholder="Enter Your number" />
+                            <label for="name">Phone Number:</label>
+                            <input type="number"
+                                placeholder="Enter Your number" id="phone_number"/>
                         </div>
 
                         <div class="name">
                             <label for="name">Income:</label>
-                            <input type="text"
-                                placeholder="Enter Your number" />
+                            <input type="number"
+                                placeholder="Enter Your Income" id="income" />
                         </div>
 
                         <div class="submit_btn">
-                            <button>Submit</button>
+                            <button type="submit">Submit</button>
+                             <!-- <input type="button" value="submit"> -->
                         </div>
                     </form>
                 </div>
